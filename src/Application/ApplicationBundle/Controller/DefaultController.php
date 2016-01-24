@@ -29,21 +29,32 @@ class DefaultController extends Controller
         $array = $facebook->api("/feed?ids=lilotregal,649823778452363");
 
         //build a pattern to use it in regex in order to retrieve only menus from the posts
-        $pattern = '/.*(repas du|menu du|repas du jour|menu du jour).*(lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche).(\d).*(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)/i';
+        $pattern = '/(repas du|menu du|repas du jour|menu du jour).*(lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche).(\d).*(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)/i';
 
         //make a counter to take just the three last menus
         $i = 0;
 
         //build an array to store the first page's menus in it
         $data = array();
-
+        $menuOfdays = array();
+        //$dates = array();
         foreach ($array["lilotregal"] as $pagefeed) {
 
             foreach ($pagefeed as $page) {
 
-                if (isset($page['message']) && isset($page['created_time']) && preg_match($pattern, $page['message'])) {
+                if (isset($page['message']) && isset($page['created_time']) && preg_match($pattern, $page['message'], $matches)) {
 
-                    $data[] = $page['message'] . date("j-m-y", strtotime($page['created_time']));
+
+                    $dates = date("Y/m/j", strtotime($page['created_time'] . "+1 day"));
+
+                    if ($dates == date("Y/m/d")) {
+                        $menuOfdays[] = $matches['0'];
+                        $menuOfdays['0'] = "Menu du jour";
+                    } else {
+                        $menuOfdays[] = $matches[0];
+                    }
+
+                    $data[] = $page['message'];
 
                     if (++$i === 3) {
                         break;
@@ -51,24 +62,44 @@ class DefaultController extends Controller
 
                 }
 
+
             }
+
+
         }
+
 
         //store the second page's menus
         $i = 0;
         $refine = array();
+        $mealOfdays = array();
 
         foreach ($array["649823778452363"] as $menus) {
 
             foreach ($menus as $menu) {
 
-                if (isset($menu['message']) && isset($menu['created_time']) && preg_match($pattern, $menu['message'])) {
+                if (isset($menu['message']) && isset($menu['created_time']) && preg_match($pattern, $menu['message'], $matches)) {
 
-                    $refine[] = $menu['message'] . date("j-m-y", strtotime($menu['created_time']));
+                    $dates = date("Y/m/j", strtotime($menu['created_time'] . "+1 day"));
+
+                    if ($dates == date("Y/m/d")) {
+
+                        $mealOfdays[] = $matches['0'];
+
+                        $mealOfdays['0'] = "Repas d'aujourd'hui";
+
+                    } else {
+
+                        $mealOfdays[] = $matches[0];
+                    }
+
+                    $refine[] = $menu['message'];
 
                     if (++$i === 3) {
+
                         break;
                     }
+
                 }
 
             }
@@ -77,7 +108,9 @@ class DefaultController extends Controller
 
         return $this->render('ApplicationApplicationBundle:Default:index.html.twig', array(
             'data' => $data,
-            'refine' => $refine
+            'refine' => $refine,
+            'menuOfdays' => $menuOfdays,
+            'mealOfdays' => $mealOfdays
         ));
     }
 
