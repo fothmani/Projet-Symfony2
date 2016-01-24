@@ -44,10 +44,17 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                             <h4 class=\"panel-title\">
                                 <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion\"
                                    href=\"#collapseOne\">
-                                    <span class=\"glyphicon glyphicon-star\" id=\"flash\"></span>
-
                                     ";
-        // line 21
+        // line 19
+        if (($this->getAttribute((isset($context["menuOfdays"]) ? $context["menuOfdays"] : $this->getContext($context, "menuOfdays")), "0", array(), "array") == "Menu d'aujourd'hui")) {
+            // line 20
+            echo "                                    <span class=\"glyphicon glyphicon-star\" id=\"flash\"></span>
+                                    ";
+        }
+        // line 22
+        echo "
+                                    ";
+        // line 23
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["menuOfdays"]) ? $context["menuOfdays"] : $this->getContext($context, "menuOfdays")), "0", array(), "array"), "html", null, true);
         echo "
 
@@ -57,7 +64,7 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                         <div id=\"collapseOne\" class=\"panel-collapse collapse in\">
                             <div class=\"panel-body\">
                                 <pre>";
-        // line 28
+        // line 30
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["data"]) ? $context["data"] : $this->getContext($context, "data")), "0", array(), "array"), "html", null, true);
         echo "</pre>
 
@@ -70,7 +77,7 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                                 <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion\"
                                    href=\"#collapseTwo\">
                                     ";
-        // line 38
+        // line 40
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["menuOfdays"]) ? $context["menuOfdays"] : $this->getContext($context, "menuOfdays")), "1", array(), "array"), "html", null, true);
         echo "
                                 </a><i class=\"indicator glyphicon glyphicon-chevron-down  pull-right\"></i>
@@ -79,7 +86,7 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                         <div id=\"collapseTwo\" class=\"panel-collapse collapse in\">
                             <div class=\"panel-body\">
                                 <pre>";
-        // line 44
+        // line 46
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["data"]) ? $context["data"] : $this->getContext($context, "data")), "1", array(), "array"), "html", null, true);
         echo "</pre>
                             </div>
@@ -91,7 +98,7 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                                 <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion\"
                                    href=\"#collapseThree\">
                                     ";
-        // line 53
+        // line 55
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["menuOfdays"]) ? $context["menuOfdays"] : $this->getContext($context, "menuOfdays")), "2", array(), "array"), "html", null, true);
         echo "
                                 </a><i class=\"indicator glyphicon glyphicon-chevron-down pull-right\"></i>
@@ -100,7 +107,7 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                         <div id=\"collapseThree\" class=\"panel-collapse collapse in\">
                             <div class=\"panel-body\">
                                 <pre>";
-        // line 59
+        // line 61
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["data"]) ? $context["data"] : $this->getContext($context, "data")), "2", array(), "array"), "html", null, true);
         echo "</pre>
                             </div>
@@ -114,10 +121,10 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
 ";
     }
 
-    // line 70
+    // line 72
     public function block_box($context, array $blocks = array())
     {
-        // line 71
+        // line 73
         echo "     <div class=\"row\">
          <div class=\"box\">
              <div class=\"col-lg-12\">
@@ -133,7 +140,14 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                                  <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion2\"
                                     href=\"#collapse4\">
                                      ";
-        // line 85
+        // line 87
+        if (($this->getAttribute((isset($context["mealOfdays"]) ? $context["mealOfdays"] : $this->getContext($context, "mealOfdays")), "0", array(), "array") == "Repas d'aujourd'hui")) {
+            // line 88
+            echo "                                     <span class=\"glyphicon glyphicon-star\" id=\"flash2\"></span>
+                                     ";
+        }
+        // line 90
+        echo "                                     ";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["mealOfdays"]) ? $context["mealOfdays"] : $this->getContext($context, "mealOfdays")), "0", array(), "array"), "html", null, true);
         echo "
                                  </a><i class=\"indicator glyphicon glyphicon-chevron-down  pull-right\"></i>
@@ -141,8 +155,8 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                          </div>
                          <div id=\"collapse4\" class=\"panel-collapse collapse in\">
                              <div class=\"panel-body\">
-                             <pre>";
-        // line 91
+                                 <pre>";
+        // line 96
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["refine"]) ? $context["refine"] : $this->getContext($context, "refine")), "0", array(), "array"), "html", null, true);
         echo "</pre>
                              </div>
@@ -154,7 +168,7 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                                  <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion2\"
                                     href=\"#collapse5\">
                                      ";
-        // line 100
+        // line 105
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["mealOfdays"]) ? $context["mealOfdays"] : $this->getContext($context, "mealOfdays")), "1", array(), "array"), "html", null, true);
         echo "
                                  </a><i class=\"indicator glyphicon glyphicon-chevron-down  pull-right\"></i>
@@ -162,8 +176,8 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                          </div>
                          <div id=\"collapse5\" class=\"panel-collapse collapse in\">
                              <div class=\"panel-body\">
-                             <pre>";
-        // line 106
+                                 <pre>";
+        // line 111
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["refine"]) ? $context["refine"] : $this->getContext($context, "refine")), "1", array(), "array"), "html", null, true);
         echo "</pre>
                              </div>
@@ -175,7 +189,7 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                                  <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion2\"
                                     href=\"#collapse6\">
                                      ";
-        // line 115
+        // line 120
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["mealOfdays"]) ? $context["mealOfdays"] : $this->getContext($context, "mealOfdays")), "2", array(), "array"), "html", null, true);
         echo "
                                  </a><i class=\"indicator glyphicon glyphicon-chevron-down pull-right\"></i>
@@ -183,8 +197,8 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
                          </div>
                          <div id=\"collapse6\" class=\"panel-collapse collapse in\">
                              <div class=\"panel-body\">
-                             <pre>";
-        // line 121
+                                 <pre>";
+        // line 126
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["refine"]) ? $context["refine"] : $this->getContext($context, "refine")), "2", array(), "array"), "html", null, true);
         echo "</pre>
                              </div>
@@ -210,6 +224,6 @@ class __TwigTemplate_f0de0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabca
 
     public function getDebugInfo()
     {
-        return array (  188 => 121,  179 => 115,  167 => 106,  158 => 100,  146 => 91,  137 => 85,  121 => 71,  118 => 70,  104 => 59,  95 => 53,  83 => 44,  74 => 38,  61 => 28,  51 => 21,  32 => 4,  29 => 3,);
+        return array (  202 => 126,  193 => 120,  181 => 111,  172 => 105,  160 => 96,  150 => 90,  146 => 88,  144 => 87,  128 => 73,  125 => 72,  111 => 61,  102 => 55,  90 => 46,  81 => 40,  68 => 30,  58 => 23,  55 => 22,  51 => 20,  49 => 19,  32 => 4,  29 => 3,);
     }
 }

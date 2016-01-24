@@ -7,7 +7,7 @@ $('.carousel').carousel({
     interval: 3000 //changes the speed
 });
 
-//Activate the up-down chevron
+//Activate the up-down chevron and the collapse
 function toggleChevron(e) {
     $(e.target)
         .prev('.panel-heading')
@@ -20,12 +20,21 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
 $('#accordion2').on('hidden.bs.collapse', toggleChevron);
 $('#accordion2').on('shown.bs.collapse', toggleChevron);
 
-//flash the star to
+//flash the star
 function flash() {
 
-    var text = document.getElementById('flash');
-    text.style.color = (text.style.color == 'red') ? 'gray' : 'red';
+
+    var star = document.getElementById('flash');
+    if (star) {
+        star.style.color = (star.style.color == 'red') ? 'gray' : 'red';
+    }
+
+    var star2 = document.getElementById('flash2');
+    if (star2) {
+        star2.style.color = (star2.style.color == 'red') ? 'gray' : 'red';
+    }
 
 }
+var clr = setInterval(flash, 500);
 
-var clr = setInterval(flash, 1000);
+

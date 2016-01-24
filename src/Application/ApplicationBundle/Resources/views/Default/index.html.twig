@@ -16,7 +16,9 @@
                             <h4 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseOne">
+                                    {% if menuOfdays['0'] == "Menu d'aujourd'hui" %}
                                     <span class="glyphicon glyphicon-star" id="flash"></span>
+                                    {% endif %}
 
                                     {{ menuOfdays['0'] }}
 
@@ -82,13 +84,16 @@
                              <h4 class="panel-title">
                                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                     href="#collapse4">
+                                     {% if mealOfdays['0'] == "Repas d'aujourd'hui" %}
+                                     <span class="glyphicon glyphicon-star" id="flash2"></span>
+                                     {% endif %}
                                      {{ mealOfdays['0'] }}
                                  </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
                              </h4>
                          </div>
                          <div id="collapse4" class="panel-collapse collapse in">
                              <div class="panel-body">
-                             <pre>{{ refine['0'] }}</pre>
+                                 <pre>{{ refine['0'] }}</pre>
                              </div>
                          </div>
                      </div>
@@ -103,7 +108,7 @@
                          </div>
                          <div id="collapse5" class="panel-collapse collapse in">
                              <div class="panel-body">
-                             <pre>{{ refine['1'] }}</pre>
+                                 <pre>{{ refine['1'] }}</pre>
                              </div>
                          </div>
                      </div>
@@ -118,7 +123,7 @@
                          </div>
                          <div id="collapse6" class="panel-collapse collapse in">
                              <div class="panel-body">
-                             <pre>{{ refine['2'] }}</pre>
+                                 <pre>{{ refine['2'] }}</pre>
                              </div>
                          </div>
                      </div>

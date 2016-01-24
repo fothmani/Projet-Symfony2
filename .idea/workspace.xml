@@ -2,13 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8199bf-8433-4b80-be6c-b4f9f8f40b55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f0/de/0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabcae9ccd.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/f0/de/0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabcae9ccd.php" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\AcmeDemoBundle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Command\HelloWorldCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Controller\DemoController.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Controller\SecuredController.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Controller\WelcomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\DependencyInjection\AcmeDemoExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\EventListener\ControllerListener.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Form\ContactType.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\config\routing.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\config\services.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\public\css\demo.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\public\images\blue-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\public\images\field-background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\public\images\logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\public\images\search.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\public\images\welcome-configure.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\public\images\welcome-demo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\public\images\welcome-quick-tour.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\views\Demo\contact.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\views\Demo\hello.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\views\Demo\index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\views\Secured\hello.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\views\Secured\helloadmin.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\views\Secured\layout.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\views\Secured\login.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\views\Welcome\index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Resources\views\layout.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Tests\Controller\DemoControllerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Acme\DemoBundle\Twig\Extension\DemoExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Application\ApplicationBundle\Resources\public\img\intro-pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Application\ApplicationBundle\Resources\public\img\slide-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Application\ApplicationBundle\Resources\public\img\slide-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Application\ApplicationBundle\Resources\public\img\slide-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\src\Application\ApplicationBundle\Tests\Controller\DefaultControllerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\acmedemo\css\demo.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\acmedemo\images\blue-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\acmedemo\images\field-background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\acmedemo\images\logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\acmedemo\images\search.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\acmedemo\images\welcome-configure.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\acmedemo\images\welcome-demo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\acmedemo\images\welcome-quick-tour.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\applicationapplication\img\bg-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\web\bundles\applicationapplication\img\slide-1.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/prod/twig/f0/de/0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabcae9ccd.php" afterPath="$PROJECT_DIR$/app/cache/prod/twig/f0/de/0a49ce4243dfee7b5dd3dcb63b91b49f115c8773c64c43e986aabcae9ccd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/98/ae/58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa936f0a.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/98/ae/58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa936f0a.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/prod/twig/98/ae/58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa936f0a.php" afterPath="$PROJECT_DIR$/app/cache/prod/twig/98/ae/58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa936f0a.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js" afterPath="$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/prod.log" afterPath="$PROJECT_DIR$/app/logs/prod.log" />
@@ -38,11 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65667576" vertical-offset="660" max-vertical-offset="2108">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="1326" max-vertical-offset="2159">
+              <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -61,28 +101,28 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="629">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="782">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ApplicationApplicationBundle.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/ApplicationApplicationBundle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="40.423077" vertical-offset="2088" max-vertical-offset="2397">
-              <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/layout/template.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3846154" vertical-offset="2020" max-vertical-offset="2329">
-              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.67105263" vertical-offset="1428" max-vertical-offset="2482">
+              <caret line="99" column="54" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -107,8 +147,10 @@
         <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/layout/header.html.twig" />
         <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/public/css/business-casual.css" />
         <option value="$PROJECT_DIR$/web/bundles/applicationapplication/css/style.css" />
-        <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/layout/template.html.twig" />
+        <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Tests/Controller/DefaultControllerTest.php" />
+        <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/ApplicationApplicationBundle.php" />
+        <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js" />
         <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php" />
       </list>
@@ -175,226 +217,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applicationapplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applicationapplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acmedemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplicationBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplicationBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplicationBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplicationBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -406,7 +228,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../media" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../falcon" />
     <property name="FullScreen" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="bg&#9;null&#9;null" />
@@ -451,12 +273,20 @@
       <option name="number" value="Default" />
       <updated>1452297334655</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update Default controller">
+      <created>1453668440475</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1453668440475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -493,6 +323,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Update Default controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Default controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,13 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Welcome/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="1513">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
@@ -622,13 +447,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="3417">
           <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Welcome/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="1513">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -663,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Welcome/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="442">
@@ -698,13 +509,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3009">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Welcome/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -739,38 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Controller/DemoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="935">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/hello.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
           <caret line="0" column="402" selection-start-line="0" selection-start-column="402" selection-end-line="0" selection-end-column="402" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/hello.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="255">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Controller/DemoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="935">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -788,24 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Controller/WelcomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="425">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3024911" vertical-offset="0" max-vertical-offset="562">
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Welcome/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5173042" vertical-offset="301" max-vertical-offset="1513">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -844,18 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/layout/template.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/ApplicationApplicationBundle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3846154" vertical-offset="2020" max-vertical-offset="2329">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="40.423077" vertical-offset="2088" max-vertical-offset="2397">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -870,16 +624,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="629">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="782">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65667576" vertical-offset="660" max-vertical-offset="2108">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="1326" max-vertical-offset="2159">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/layout/template.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.697548" vertical-offset="0" max-vertical-offset="2312">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67105263" vertical-offset="1428" max-vertical-offset="2482">
+          <caret line="99" column="54" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="54" />
           <folding />
         </state>
       </provider>

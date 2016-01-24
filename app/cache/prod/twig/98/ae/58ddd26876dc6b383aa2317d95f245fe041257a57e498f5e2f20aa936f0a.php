@@ -33,7 +33,7 @@ class __TwigTemplate_98ae58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa9
 ";
         // line 105
         $this->displayBlock('footer', $context, $blocks);
-        // line 130
+        // line 129
         echo "
 
 ";
@@ -106,80 +106,80 @@ class __TwigTemplate_98ae58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa9
     public function block_container($context, array $blocks = array())
     {
         // line 43
-        echo "<div class=\"container\">
+        echo "    <div class=\"container\">
 
-    <div class=\"row\">
+        <div class=\"row\">
 
-        <div class=\"box\">
-            <div>
-                <div class=\"col-lg-12 text-center\">
+            <div class=\"box\">
+                <div>
+                    <div class=\"col-lg-12 text-center\">
 
-                    <h2 class=\"brand-before\">
-                        <small>Bienvenue au</small>
-                    </h2>
-                    <h1 class=\"brand-name\">Menu Restaurant</h1>
-                    <br/>
+                        <h2 class=\"brand-before\">
+                            <small>Bienvenue au</small>
+                        </h2>
+                        <h1 class=\"brand-name\">Menu Restaurant</h1>
+                        <br/>
 
-                </div>
-                <div id=\"carousel-example-generic\" class=\"carousel slide\">
-                    <!-- Indicators -->
-                    <ol class=\"carousel-indicators hidden-xs\">
-                        <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li>
-                        <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li>
-                        <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li>
-                    </ol>
+                    </div>
+                    <div id=\"carousel-example-generic\" class=\"carousel slide\">
+                        <!-- Indicators -->
+                        <ol class=\"carousel-indicators hidden-xs\">
+                            <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li>
+                            <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li>
+                            <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li>
+                        </ol>
 
 
-                    <!-- Wrapper for slides -->
-                    <div class=\"carousel-inner\">
-                        <div class=\"item active\">
-                            <img class=\"img-responsive img-full\"
-                                 src=\"";
+                        <!-- Wrapper for slides -->
+                        <div class=\"carousel-inner\">
+                            <div class=\"item active\">
+                                <img class=\"img-responsive img-full\"
+                                     src=\"";
         // line 71
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/applicationapplication/img/slide-5.jpg"), "html", null, true);
         echo "\" alt=\"\">
-                        </div>
-                        <div class=\"item\">
-                            <img class=\"img-responsive img-full\"
-                                 src=\"";
+                            </div>
+                            <div class=\"item\">
+                                <img class=\"img-responsive img-full\"
+                                     src=\"";
         // line 75
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/applicationapplication/img/restaurant.jpg"), "html", null, true);
         echo "\" alt=\"\">
-                        </div>
-                        <div class=\"item\">
-                            <img class=\"img-responsive img-full\"
-                                 src=\"";
+                            </div>
+                            <div class=\"item\">
+                                <img class=\"img-responsive img-full\"
+                                     src=\"";
         // line 79
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/applicationapplication/img/slide-4.jpg"), "html", null, true);
         echo "\" alt=\"\">
+                            </div>
                         </div>
+
+                        <!-- Controls -->
+                        <a class=\"left carousel-control\" href=\"#carousel-example-generic\" data-slide=\"prev\">
+                            <span class=\"icon-prev\"></span>
+                        </a>
+                        <a class=\"right carousel-control\" href=\"#carousel-example-generic\" data-slide=\"next\">
+                            <span class=\"icon-next\"></span>
+                        </a>
                     </div>
 
-                    <!-- Controls -->
-                    <a class=\"left carousel-control\" href=\"#carousel-example-generic\" data-slide=\"prev\">
-                        <span class=\"icon-prev\"></span>
-                    </a>
-                    <a class=\"right carousel-control\" href=\"#carousel-example-generic\" data-slide=\"next\">
-                        <span class=\"icon-next\"></span>
-                    </a>
+
                 </div>
-
-
             </div>
         </div>
-    </div>
 
 
-    ";
+        ";
         // line 98
         $this->displayBlock('row', $context, $blocks);
         // line 99
-        echo "    ";
+        echo "        ";
         $this->displayBlock('box', $context, $blocks);
         // line 100
         echo "
-</div>
-<!-- /.container -->
+    </div>
+    <!-- /.container -->
 ";
     }
 
@@ -225,7 +225,6 @@ class __TwigTemplate_98ae58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa9
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/applicationapplication/js/main.js"), "html", null, true);
         echo "></script>
 
-
 </body>
 
 </html>
@@ -239,6 +238,6 @@ class __TwigTemplate_98ae58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa9
 
     public function getDebugInfo()
     {
-        return array (  225 => 123,  219 => 120,  213 => 117,  200 => 106,  197 => 105,  192 => 99,  187 => 98,  180 => 100,  177 => 99,  175 => 98,  153 => 79,  146 => 75,  139 => 71,  109 => 43,  106 => 42,  100 => 13,  77 => 22,  71 => 19,  65 => 16,  59 => 13,  46 => 2,  43 => 1,  37 => 130,  35 => 105,  32 => 104,  30 => 42,  27 => 41,  25 => 1,);
+        return array (  225 => 123,  219 => 120,  213 => 117,  200 => 106,  197 => 105,  192 => 99,  187 => 98,  180 => 100,  177 => 99,  175 => 98,  153 => 79,  146 => 75,  139 => 71,  109 => 43,  100 => 13,  77 => 22,  71 => 19,  65 => 16,  59 => 13,  46 => 2,  43 => 1,  37 => 129,  35 => 105,  30 => 42,  27 => 41,  25 => 1,  193 => 126,  184 => 120,  171 => 110,  162 => 104,  149 => 94,  140 => 88,  123 => 73,  120 => 72,  106 => 42,  97 => 55,  84 => 45,  75 => 39,  61 => 28,  51 => 21,  32 => 104,  29 => 3,);
     }
 }

@@ -10,12 +10,12 @@ class DefaultController extends Controller
     {
         //include API facebook-sdk-php
         require_once('facebook.php');
+        date_default_timezone_set("Indian/Reunion"); //You can add timezone in php.ini file
     }
 
     public function indexAction()
 
     {
-
         // connect to app
         $config = array();
         $config['appId'] = '1017499418312477';
@@ -37,7 +37,7 @@ class DefaultController extends Controller
         //build an array to store the first page's menus in it
         $data = array();
         $menuOfdays = array();
-        //$dates = array();
+
         foreach ($array["lilotregal"] as $pagefeed) {
 
             foreach ($pagefeed as $page) {
@@ -48,8 +48,11 @@ class DefaultController extends Controller
                     $dates = date("Y/m/j", strtotime($page['created_time'] . "+1 day"));
 
                     if ($dates == date("Y/m/d")) {
+
+
                         $menuOfdays[] = $matches['0'];
-                        $menuOfdays['0'] = "Menu du jour";
+                        $menuOfdays['0'] = "Menu d'aujourd'hui";
+
                     } else {
                         $menuOfdays[] = $matches[0];
                     }
