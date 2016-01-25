@@ -34,8 +34,10 @@ class DefaultController extends Controller
         //make a counter to take just the three last menus
         $i = 0;
 
-        //build an array to store the first page's menus in it
+        //build an array to store data of the first page
         $data = array();
+
+        //build an array to retrieve menu's titles to display them in the panel heading
         $menuOfdays = array();
 
         foreach ($array["lilotregal"] as $pagefeed) {
@@ -49,32 +51,33 @@ class DefaultController extends Controller
 
                     if ($dates == date("Y/m/d")) {
 
-
                         $menuOfdays[] = $matches['0'];
+
                         $menuOfdays['0'] = "Menu d'aujourd'hui";
 
                     } else {
                         $menuOfdays[] = $matches[0];
+
+
                     }
 
                     $data[] = $page['message'];
 
+                    //take only the three last menus
                     if (++$i === 3) {
                         break;
                     }
 
                 }
 
-
             }
-
 
         }
 
-
-        //store the second page's menus
         $i = 0;
+        //store the data of the second page
         $refine = array();
+        //build an array to retrieve meal's titles to display them in the panel heading
         $mealOfdays = array();
 
         foreach ($array["649823778452363"] as $menus) {
@@ -84,8 +87,9 @@ class DefaultController extends Controller
                 if (isset($menu['message']) && isset($menu['created_time']) && preg_match($pattern, $menu['message'], $matches)) {
 
                     $dates = date("Y/m/j", strtotime($menu['created_time'] . "+1 day"));
+                    $dates2 = date("Y/m/j", strtotime($menu['created_time']));
 
-                    if ($dates == date("Y/m/d")) {
+                    if ($dates == date("Y/m/d") || $dates2 == date("Y/m/d")) {
 
                         $mealOfdays[] = $matches['0'];
 
@@ -93,11 +97,13 @@ class DefaultController extends Controller
 
                     } else {
 
+
                         $mealOfdays[] = $matches[0];
                     }
 
                     $refine[] = $menu['message'];
 
+                    //take only the three last meals
                     if (++$i === 3) {
 
                         break;

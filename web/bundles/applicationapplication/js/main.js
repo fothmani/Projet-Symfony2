@@ -20,13 +20,14 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
 $('#accordion2').on('hidden.bs.collapse', toggleChevron);
 $('#accordion2').on('shown.bs.collapse', toggleChevron);
 
-//flash the star
+//flash the menu of day
 function flash() {
-
 
     var star = document.getElementById('flash');
     if (star) {
+
         star.style.color = (star.style.color == 'red') ? 'gray' : 'red';
+
     }
 
     var star2 = document.getElementById('flash2');
@@ -37,4 +38,16 @@ function flash() {
 }
 var clr = setInterval(flash, 500);
 
+//make notification if there is a new menu/meal of day
+
+var menuOfday = document.getElementById('link').text;
+var mealOfday = document.getElementById('link2').text;
+
+$(document).ready(function (e) {
+
+    if ((menuOfday = "Menu d'aujourd'hui") || (mealOfday = "Repas d'aujourd'hui")) {
+        $.notify("Vous avez un nouveau menu aujourd'hui", "success");
+
+    }
+});
 

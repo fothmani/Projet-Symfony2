@@ -33,7 +33,7 @@ class __TwigTemplate_98ae58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa9
 ";
         // line 105
         $this->displayBlock('footer', $context, $blocks);
-        // line 129
+        // line 130
         echo "
 
 ";
@@ -224,6 +224,10 @@ class __TwigTemplate_98ae58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa9
         // line 123
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/applicationapplication/js/main.js"), "html", null, true);
         echo "></script>
+<script src=";
+        // line 124
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/applicationapplication/js/notify.js"), "html", null, true);
+        echo "></script>
 
 </body>
 
@@ -238,6 +242,6 @@ class __TwigTemplate_98ae58ddd26876dc6b383aa2317d95f245fe041257a57e498f5e2f20aa9
 
     public function getDebugInfo()
     {
-        return array (  225 => 123,  219 => 120,  213 => 117,  200 => 106,  197 => 105,  192 => 99,  187 => 98,  180 => 100,  177 => 99,  175 => 98,  153 => 79,  146 => 75,  139 => 71,  109 => 43,  100 => 13,  77 => 22,  71 => 19,  65 => 16,  59 => 13,  46 => 2,  43 => 1,  37 => 129,  35 => 105,  30 => 42,  27 => 41,  25 => 1,  193 => 126,  184 => 120,  171 => 110,  162 => 104,  149 => 94,  140 => 88,  123 => 73,  120 => 72,  106 => 42,  97 => 55,  84 => 45,  75 => 39,  61 => 28,  51 => 21,  32 => 104,  29 => 3,);
+        return array (  229 => 124,  225 => 123,  219 => 120,  213 => 117,  200 => 106,  197 => 105,  192 => 99,  187 => 98,  180 => 100,  177 => 99,  175 => 98,  153 => 79,  146 => 75,  139 => 71,  109 => 43,  106 => 42,  100 => 13,  77 => 22,  71 => 19,  65 => 16,  59 => 13,  46 => 2,  43 => 1,  37 => 130,  35 => 105,  30 => 42,  27 => 41,  25 => 1,  199 => 124,  190 => 118,  178 => 109,  169 => 103,  157 => 94,  147 => 88,  143 => 86,  141 => 85,  125 => 71,  122 => 70,  108 => 59,  99 => 53,  87 => 44,  78 => 38,  66 => 29,  56 => 23,  52 => 21,  50 => 20,  32 => 104,  29 => 3,);
     }
 }
