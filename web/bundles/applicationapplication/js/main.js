@@ -2,6 +2,25 @@
  * Created by fothmani on 17/01/2016.
  */
 
+$(document).ready(function (e) {
+
+    var label1 = document.getElementById('link');
+    var label2 = document.getElementById('link2');
+
+
+    if ((label1.textContent.indexOf("Menu d'aujourd'hui")) || (label1.textContent.indexOf("Repas d'aujourd'hui")) !== -1)
+
+    //Display notification when there is a new menu or a new meal if it exists
+        $.notify("Vous avez un nouveau menu pour aujourd'hui", "success");
+
+    //Flash the menu and the meal of the day if they exist
+    setInterval(function () {
+        //f.style.display = (f.style.display == 'none' ? '' : 'none');
+        label1.style.color = (label1.style.color == 'red') ? 'gray' : 'red';
+        label2.style.color = (label2.style.color == 'red') ? 'gray' : 'red';
+
+    }, 500);
+
 //Activate the carousel
 $('.carousel').carousel({
     interval: 3000 //changes the speed
@@ -20,34 +39,6 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
 $('#accordion2').on('hidden.bs.collapse', toggleChevron);
 $('#accordion2').on('shown.bs.collapse', toggleChevron);
 
-//flash the menu of day
-function flash() {
 
-    var star = document.getElementById('flash');
-    if (star) {
-
-        star.style.color = (star.style.color == 'red') ? 'gray' : 'red';
-
-    }
-
-    var star2 = document.getElementById('flash2');
-    if (star2) {
-        star2.style.color = (star2.style.color == 'red') ? 'gray' : 'red';
-    }
-
-}
-var clr = setInterval(flash, 500);
-
-//make notification if there is a new menu/meal of day
-
-var menuOfday = document.getElementById('link').text;
-var mealOfday = document.getElementById('link2').text;
-
-$(document).ready(function (e) {
-
-    if ((menuOfday = "Menu d'aujourd'hui") || (mealOfday = "Repas d'aujourd'hui")) {
-        $.notify("Vous avez un nouveau menu aujourd'hui", "success");
-
-    }
 });
 

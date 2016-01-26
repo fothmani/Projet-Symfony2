@@ -38,8 +38,8 @@ class DefaultController extends Controller
         $data = array();
 
         //build an array to retrieve menu's titles to display them in the panel heading
-        $menuOfdays = array();
 
+        $menuOfdays = array();
         foreach ($array["lilotregal"] as $pagefeed) {
 
             foreach ($pagefeed as $page) {
@@ -47,17 +47,13 @@ class DefaultController extends Controller
                 if (isset($page['message']) && isset($page['created_time']) && preg_match($pattern, $page['message'], $matches)) {
 
 
-                    $dates = date("Y/m/j", strtotime($page['created_time'] . "+1 day"));
+                   $dates = date("Y/m/j", strtotime($page['created_time']."+1 day"));
+
+                    $menuOfdays[$dates] = $matches['0'];
 
                     if ($dates == date("Y/m/d")) {
 
-                        $menuOfdays[] = $matches['0'];
-
-                        $menuOfdays['0'] = "Menu d'aujourd'hui";
-
-                    } else {
-                        $menuOfdays[] = $matches[0];
-
+                        $menuOfdays[$dates] = "Menu d'aujourd'hui";
 
                     }
 
@@ -73,6 +69,8 @@ class DefaultController extends Controller
             }
 
         }
+        $menuOfday = array_values ($menuOfdays);
+
 
         $i = 0;
         //store the data of the second page
@@ -86,19 +84,15 @@ class DefaultController extends Controller
 
                 if (isset($menu['message']) && isset($menu['created_time']) && preg_match($pattern, $menu['message'], $matches)) {
 
-                    $dates = date("Y/m/j", strtotime($menu['created_time'] . "+1 day"));
-                    $dates2 = date("Y/m/j", strtotime($menu['created_time']));
+                    $dates2 = date("Y/m/j", strtotime($menu['created_time']."+1 day"));
 
-                    if ($dates == date("Y/m/d") || $dates2 == date("Y/m/d")) {
 
-                        $mealOfdays[] = $matches['0'];
+                    $mealOfdays[] = $matches['0'];
+
+                    if ($dates2 == date("Y/m/d")) {
 
                         $mealOfdays['0'] = "Repas d'aujourd'hui";
 
-                    } else {
-
-
-                        $mealOfdays[] = $matches[0];
                     }
 
                     $refine[] = $menu['message'];
@@ -115,11 +109,12 @@ class DefaultController extends Controller
 
         }
 
+
         return $this->render('ApplicationApplicationBundle:Default:index.html.twig', array(
             'data' => $data,
             'refine' => $refine,
-            'menuOfdays' => $menuOfdays,
-            'mealOfdays' => $mealOfdays
+            'menuOfday' => $menuOfday,
+            'mealOfday' => $mealOfdays
         ));
     }
 

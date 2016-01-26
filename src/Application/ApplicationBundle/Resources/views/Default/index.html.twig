@@ -13,16 +13,15 @@
                 <hr>
 
                 <div class="panel-group" id="accordion">
-                    <div class="panel">
+                    <div class="panel panel-warning">
                         <div class="panel-heading">
-                            <h4 class="panel-title" id ="flash">
+                            <h4 class="panel-title" id="flash">
                                 <a class="accordion-toggle" id="link" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseOne">
-                                    {% if menuOfdays['0'] == "Menu d'aujourd'hui" %}
-                                    <span class="glyphicon glyphicon-star"></span>
+                                    {% if menuOfday['0'] == "Menu d'aujourd'hui" %}
+                                        <span class="glyphicon glyphicon-star"></span>
                                     {% endif %}
-                                            {{ menuOfdays['0'] }}
-
+                                    {{ menuOfday['0'] }}
                                 </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
                             </h4>
                         </div>
@@ -32,12 +31,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default">
+                    <div class="panel panel-warning">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseTwo">
-                                    {{ menuOfdays['1'] }}
+                                    {{ menuOfday['1'] }}
                                 </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
                             </h4>
                         </div>
@@ -47,12 +46,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default">
+                    <div class="panel panel-warning">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseThree">
-                                    {{ menuOfdays['2'] }}
+                                    {{ menuOfday['2'] }}
                                 </a><i class="indicator glyphicon glyphicon-chevron-down pull-right"></i>
                             </h4>
                         </div>
@@ -79,15 +78,15 @@
                  </h2>
                  <hr>
                  <div class="panel-group" id="accordion2">
-                     <div class="panel">
+                     <div class="panel panel-warning">
                          <div class="panel-heading">
                              <h4 class="panel-title" id="flash2">
-                                 <a class="accordion-toggle" id ="link2" data-toggle="collapse" data-parent="#accordion2"
+                                 <a class="accordion-toggle" id="link2" data-toggle="collapse" data-parent="#accordion2"
                                     href="#collapse4">
-                                     {% if mealOfdays['0'] == "Repas d'aujourd'hui" %}
-                                     <span class="glyphicon glyphicon-star" ></span>
+                                     {% if mealOfday['0'] == "Repas d'aujourd'hui" %}
+                                         <span class="glyphicon glyphicon-star"></span>
                                      {% endif %}
-                                         {{ mealOfdays['0'] }}
+                                     {{ mealOfday['0'] }}
 
                                  </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
                              </h4>
@@ -98,12 +97,12 @@
                              </div>
                          </div>
                      </div>
-                     <div class="panel panel-default">
+                     <div class="panel panel-warning">
                          <div class="panel-heading">
                              <h4 class="panel-title">
                                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                     href="#collapse5">
-                                     {{ mealOfdays['1'] }}
+                                     {{ mealOfday['1'] }}
                                  </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
                              </h4>
                          </div>
@@ -113,12 +112,12 @@
                              </div>
                          </div>
                      </div>
-                     <div class="panel panel-default">
+                     <div class="panel panel-warning">
                          <div class="panel-heading">
                              <h4 class="panel-title">
                                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                     href="#collapse6">
-                                     {{ mealOfdays['2'] }}
+                                     {{ mealOfday['2'] }}
                                  </a><i class="indicator glyphicon glyphicon-chevron-down pull-right"></i>
                              </h4>
                          </div>
