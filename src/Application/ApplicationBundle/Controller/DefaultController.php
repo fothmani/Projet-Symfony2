@@ -30,7 +30,6 @@ class DefaultController extends Controller
 
         //build a pattern to use it in regex in order to retrieve only menus from the posts
         $pattern = '/(repas du|menu du|repas du jour|menu du jour).*(lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche).(\d).*(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)/i';
-
         //make a counter to take just the three last menus
         $i = 0;
 
@@ -47,7 +46,7 @@ class DefaultController extends Controller
                 if (isset($page['message']) && isset($page['created_time']) && preg_match($pattern, $page['message'], $matches)) {
 
 
-                   $dates = date("Y/m/j", strtotime($page['created_time']."+1 day"));
+                    $dates = date("Y/m/j", strtotime($page['created_time'] . "+1 day"));
 
                     $menuOfdays[$dates] = $matches['0'];
 
@@ -69,7 +68,7 @@ class DefaultController extends Controller
             }
 
         }
-        $menuOfday = array_values ($menuOfdays);
+        $menuOfday = array_values($menuOfdays);
 
 
         $i = 0;
@@ -84,7 +83,7 @@ class DefaultController extends Controller
 
                 if (isset($menu['message']) && isset($menu['created_time']) && preg_match($pattern, $menu['message'], $matches)) {
 
-                    $dates2 = date("Y/m/j", strtotime($menu['created_time']."+1 day"));
+                    $dates2 = date("Y/m/j", strtotime($menu['created_time'] . "+1 day"));
 
 
                     $mealOfdays[] = $matches['0'];
