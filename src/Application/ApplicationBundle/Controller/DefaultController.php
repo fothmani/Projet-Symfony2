@@ -29,7 +29,7 @@ class DefaultController extends Controller
         $array = $facebook->api("/feed?ids=lilotregal,649823778452363");
 
         //build a pattern to use it in regex in order to retrieve only menus from the posts
-        $pattern = '/(repas du|menu du|repas du jour|menu du jour).*(lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche).(\d).*(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)/i';
+        $pattern = '/(repas du|menu du|repas du jour|menu du jour).*(lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche).*(\d).*(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)/i';
         //make a counter to take just the three last menus
         $i = 0;
 
@@ -87,6 +87,7 @@ class DefaultController extends Controller
 
 
                     $mealOfdays[] = $matches['0'];
+
 
                     if ($dates2 == date("Y/m/d")) {
 
