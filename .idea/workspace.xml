@@ -2,6 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8199bf-8433-4b80-be6c-b4f9f8f40b55" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\examples\example.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\examples\with_js_sdk.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\src\base_facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\src\facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\src\fb_ca_chain_bundle.crt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\src\src - Raccourci.lnk" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookSDK\tests\tests.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\.scrutinizer.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\AccessToken.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\Facebook.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookApp.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookBatchRequest.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookBatchResponse.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookCanvasHelper.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookClient.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookFile.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookJavaScriptHelper.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookPageTabHelper.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookRedirectLoginHelper.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookRequest.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookResponse.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookResponseException.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookSDKException.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\FacebookVideo.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\GraphEdge.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\GraphNode.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\PersistentDataInterface.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\PseudoRandomStringGeneratorInterface.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\SignedRequest.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\UrlDetectionInterface.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_access_token_from_canvas.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_access_token_from_javascript.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_access_token_from_page_tab.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_batch_request.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_batch_upload.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_facebook_login.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_pagination_basic.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_post_links.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_retrieve_user_profile.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_upload_photo.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\example_upload_video.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\sdk_downloads.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\sdk_getting_started.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\sdk_landing_page.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\docs\sdk_reference.fbmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Authentication\AccessToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Authentication\AccessTokenMetadata.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Authentication\OAuth2Client.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Exceptions\FacebookAuthenticationException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Exceptions\FacebookAuthorizationException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Exceptions\FacebookClientException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Exceptions\FacebookOtherException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Exceptions\FacebookResponseException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Exceptions\FacebookSDKException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Exceptions\FacebookServerException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Exceptions\FacebookThrottleException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\FacebookApp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\FacebookBatchRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\FacebookBatchResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\FacebookClient.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\FacebookRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\FacebookResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\FileUpload\FacebookFile.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\FileUpload\FacebookVideo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\FileUpload\Mimetypes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphAchievement.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphAlbum.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphApplication.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphCoverPhoto.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphEdge.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphGroup.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphList.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphLocation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphNode.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphNodeFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphObject.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphObjectFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphPage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphPicture.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphSessionInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\GraphNodes\GraphUser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Helpers\FacebookCanvasHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Helpers\FacebookJavaScriptHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Helpers\FacebookPageTabHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Helpers\FacebookRedirectLoginHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Helpers\FacebookSignedRequestFromInputHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\HttpClients\FacebookCurl.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\HttpClients\FacebookCurlHttpClient.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\HttpClients\FacebookGuzzleHttpClient.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\HttpClients\FacebookHttpClientInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\HttpClients\FacebookStream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\HttpClients\FacebookStreamHttpClient.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\HttpClients\certs\DigiCertHighAssuranceEVRootCA.pem" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Http\GraphRawResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Http\RequestBodyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Http\RequestBodyMultipart.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Http\RequestBodyUrlEncoded.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\PersistentData\FacebookMemoryPersistentDataHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\PersistentData\FacebookSessionPersistentDataHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\PersistentData\PersistentDataInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\PseudoRandomString\McryptPseudoRandomStringGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\PseudoRandomString\OpenSslPseudoRandomStringGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\PseudoRandomString\PseudoRandomStringGeneratorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\PseudoRandomString\PseudoRandomStringGeneratorTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\PseudoRandomString\UrandomPseudoRandomStringGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\SignedRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Url\FacebookUrlDetectionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Url\FacebookUrlManipulator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\Url\UrlDetectionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\src\Facebook\autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Authentication\AccessTokenMetadata.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Authentication\AccessTokenTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Authentication\FooFacebookClientForOAuth2Test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Authentication\OAuth2ClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Exceptions\FacebookResponseExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FacebookAppTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FacebookBatchRequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FacebookBatchResponseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FacebookClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FacebookRequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FacebookResponseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FacebookTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FacebookTestCredentials.php.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FileUpload\FacebookFileTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\FileUpload\MimetypesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\AbstractGraphNode.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\CollectionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphAchievementTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphAlbumTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphEdgeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphEventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphGroupTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphNodeFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphObjectFactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphPageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphSessionInfoTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\GraphNodes\GraphUserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Helpers\FacebookCanvasHelperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Helpers\FacebookJavaScriptHelperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Helpers\FacebookPageTabHelperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Helpers\FacebookRedirectLoginHelperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Helpers\FacebookSignedRequestFromInputHelperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\HttpClients\AbstractTestHttpClient.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\HttpClients\FacebookCurlHttpClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\HttpClients\FacebookGuzzleHttpClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\HttpClients\FacebookStreamHttpClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Http\GraphRawResponseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Http\RequestBodyMultipartTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Http\RequestUrlEncodedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\PersistentData\FacebookMemoryPersistentDataHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\PersistentData\FacebookSessionPersistentDataHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\PseudoRandomString\McryptPseudoRandomStringGeneratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\PseudoRandomString\OpenSslPseudoRandomStringGeneratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\PseudoRandomString\PseudoRandomStringGeneratorTraitTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\PseudoRandomString\UrandomPseudoRandomStringGeneratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\SignedRequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Url\FacebookUrlDetectionHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\Url\FacebookUrlManipulatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Bitnami\wampstack-5.5.26-0\apache2\htdocs\Symfony\vendor\facebookphpSDK\tests\foo.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js" afterPath="$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/prod.log" afterPath="$PROJECT_DIR$/app/logs/prod.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Symfony.iws" />
@@ -27,103 +209,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5701275" vertical-offset="0" max-vertical-offset="2159">
-              <caret line="83" column="130" selection-start-line="83" selection-start-column="130" selection-end-line="83" selection-end-column="130" />
+            <state vertical-scroll-proportion="0.41391304" vertical-offset="0" max-vertical-offset="850">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537" vertical-offset="85" max-vertical-offset="714">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing_dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-              <folding>
-                <marker date="1454195161084" expanded="true" signature="337:411" placeholder="_main:" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.7777777" vertical-offset="0" max-vertical-offset="1275">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config_dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8888888" vertical-offset="0" max-vertical-offset="714">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config_prod.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config_test.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/console">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="527">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_dev.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="595">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="30.423077" vertical-offset="1131" max-vertical-offset="2380">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -152,10 +252,10 @@
         <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/ApplicationApplicationBundle.php" />
         <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/layout/template.html.twig" />
         <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js" />
         <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js" />
       </list>
     </option>
   </component>
@@ -239,36 +339,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensiodistribution" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webconfigurator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,10 +429,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -423,10 +489,6 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="translations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -455,168 +517,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplicationBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplicationBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplicationBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DependencyInjection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplicationBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -721,7 +621,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454195729594</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix problem remove the AcmeDemoBundle">
+      <created>1454195809049</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1454195809049</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -732,16 +638,16 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30589125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3013595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1083,67 +989,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <caret line="10" column="123" selection-start-line="10" selection-start-column="123" selection-end-line="10" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4339622" vertical-offset="264" max-vertical-offset="2380">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/console">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="527">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="2.5701275" vertical-offset="0" max-vertical-offset="2159">
+          <caret line="83" column="130" selection-start-line="83" selection-start-column="130" selection-end-line="83" selection-end-column="130" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+        <state vertical-scroll-proportion="0.4914966" vertical-offset="0" max-vertical-offset="588">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <marker date="1454195161084" expanded="true" signature="337:411" placeholder="_main:" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7777777" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.36298934" vertical-offset="85" max-vertical-offset="714">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8888888" vertical-offset="0" max-vertical-offset="714">
+        <state vertical-scroll-proportion="0.09090909" vertical-offset="0" max-vertical-offset="714">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
@@ -1151,7 +1023,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+        <state vertical-scroll-proportion="0.37585035" vertical-offset="0" max-vertical-offset="588">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
@@ -1159,24 +1031,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="85" max-vertical-offset="714">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.18181819" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/app/console">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5701275" vertical-offset="0" max-vertical-offset="2159">
-          <caret line="83" column="130" selection-start-line="83" selection-start-column="130" selection-end-line="83" selection-end-column="130" />
+        <state vertical-scroll-proportion="0.36298934" vertical-offset="0" max-vertical-offset="562">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0867347" vertical-offset="0" max-vertical-offset="588">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66548043" vertical-offset="0" max-vertical-offset="595">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/ApplicationBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="30.423077" vertical-offset="1131" max-vertical-offset="2380">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/applicationapplication/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41391304" vertical-offset="0" max-vertical-offset="850">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>

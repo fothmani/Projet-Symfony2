@@ -7,12 +7,10 @@ $(document).ready(function (e) {
     var label1 = document.getElementById('link');
     var label2 = document.getElementById('link2');
 
-
-    if ((label1.textContent.indexOf("Menu d'aujourd'hui")) || (label1.textContent.indexOf("Repas d'aujourd'hui")) !== -1) {
+    if ((label1.textContent ==("Menu d'aujourd'hui")) || (label2.textContent == ("Repas d'aujourd'hui"))) {
 
         //Display notification when there is a new menu or a new meal if it exists
         $.notify("Vous avez un nouveau menu pour aujourd'hui", "success");
-
 
         //Flash the menu and the meal of the day if they exist
         setInterval(function () {
