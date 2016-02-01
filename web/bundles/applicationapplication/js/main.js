@@ -7,7 +7,7 @@ $(document).ready(function (e) {
     var label1 = document.getElementById('link');
     var label2 = document.getElementById('link2');
 
-    if ((label1.textContent == ("Menu d'aujourd'hui")) || (label2.textContent == ("Repas d'aujourd'hui"))) {
+   if ((label1.childNodes[1].textContent == ("Menu d'aujourd'hui")) || (label2.childNodes[1].textContent == ("Repas d'aujourd'hui"))) {
 
         //Display notification when there is a new menu or a new meal if it exists
         $.notify("Vous avez un nouveau menu pour aujourd'hui", "success");
@@ -20,7 +20,6 @@ $(document).ready(function (e) {
 
         }, 500);
     }
-
 //Activate the carousel
 $('.carousel').carousel({
     interval: 3000 //changes the speed

@@ -46,11 +46,14 @@ class DefaultController extends Controller
                 if (isset($page['message']) && isset($page['created_time']) && preg_match($pattern, $page['message'], $matches)) {
 
 
-                    $dates = date("Y/m/j", strtotime($page['created_time'] . "+1 day"));
+                    $dates = date("Y/m/d", strtotime($page['created_time'] . "+1 day"));
 
                     $menuOfdays[$dates] = $matches['0'];
 
+
+
                     if ($dates == date("Y/m/d")) {
+
 
                         $menuOfdays[$dates] = "Menu d'aujourd'hui";
 
@@ -83,7 +86,7 @@ class DefaultController extends Controller
 
                 if (isset($menu['message']) && isset($menu['created_time']) && preg_match($pattern, $menu['message'], $matches)) {
 
-                    $dates2 = date("Y/m/j", strtotime($menu['created_time'] . "+1 day"));
+                    $dates2 = date("Y/m/d", strtotime($menu['created_time'] . "+1 day"));
 
 
                     $mealOfdays[] = $matches['0'];
